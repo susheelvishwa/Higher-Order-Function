@@ -20,3 +20,4 @@ some inbuilt HOF's
 are for arrays only
 
 
+difference betbeen
