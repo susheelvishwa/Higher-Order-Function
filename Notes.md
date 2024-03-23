@@ -20,4 +20,13 @@ some inbuilt HOF's
 are for arrays only
 
 
-difference betbeen
+difference betbeen map and filter
+
+
+no  based_on             forEach                   map
+1   returen              undifine                  new and modified arry
+2   method chaining      methd chaning is not      method chining is posible
+                         pposible on this
+    
+
+method chainng
