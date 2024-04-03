@@ -56,11 +56,11 @@ let jsondata = [
 // example 2
 
 
-// let arr = ["a", "b", "c", "d"]
+let arr = ["a", "b", "c", "d"]
 
-// let output = arr.forEach(function (ele) {
-//     return ele
-// })
-// console.log(output);
+let output = arr.forEach(function (ele) {
+    return ele
+})
+console.log(output);
 
 // forEach will aleays return undifine

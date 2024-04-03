@@ -17,24 +17,61 @@
 // console.log(output) // ["kova"]
 
 
-let userarr = [
+// let userarr = [
+//   {
+//     id: 1,
+//     user: "user1",
+//   },
+//   {
+//     id: 2,
+//     user: "user2",
+//   },
+//   {
+//     id: 3,
+//     user: "user3",
+//   },
+// ];
+
+
+// let narr = userarr.filter(function (ele) {
+//     return ele.user !== "user2"
+// })
+
+// console.log(narr);
+
+
+// let arr = [2, 4, 5, 7, 8, 6]
+// let narr = arr.filter(function (ele, i, arr) {
+//   // return ele % 2 === 1
+//   return ele % 2 === 0;
+// })
+
+// console.log(narr);
+
+
+
+let data = [
   {
-    id: 1,
-    user: "user1",
+    title: "shiet",
+    price: 500,
   },
   {
-    id: 2,
-    user: "user2",
+    title: "paint",
+    price: 600,
   },
   {
-    id: 3,
-    user: "user3",
+    title: "cap",
+    price: 700,
+  },
+  {
+    title: "tshiet",
+    price: 800,
   },
 ];
 
 
-let narr = userarr.filter(function (ele) {
-    return ele.user !== "user2"
+let narr = data.filter(function (ele, i, arr) {
+  return (ele.price<=600 || ele.title == "tshirt")
 })
 
 console.log(narr);

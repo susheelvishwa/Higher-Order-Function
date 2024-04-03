@@ -25,25 +25,16 @@ let arr = [
   },
 ];
 
-
 let newarr = arr.filter(function (ele) {
-    return ele.status == true
-}).reduce(function (acc, ele) {
-    return acc + ele.price
-},0)
+  return ele.status == true;
+})
+.reduce(function (acc, ele) {
+  return acc + ele.price;
+}, 0);
 
 console.log(newarr);
 
 
-
-
-// let newarr = arr
-//   .filter(function (ele) {
-//     return ele.status == true;
-//   })
-//   .reduce(function (acc, ele) {
-//     return acc + ele.price;
-//   }, 0);
 
 // this procese call as method chaining
 
