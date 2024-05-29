@@ -1,13 +1,13 @@
-// few tecnical termonology for interview porpose
+// few technical terminology for interview propose
 
 
 // ----------------------------------------------
-// 1. function statment /named function
+// 1. function statement /named function
 
-// function sayhii() {
-//     return 'hello'
-// }
-// console.log(sayhii());
+function sayHii() {
+    return 'hello'
+}
+console.log(sayHii());
 // ----------------------------------------------
 
 // 2. function expression
